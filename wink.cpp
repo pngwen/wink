@@ -16,10 +16,10 @@ int main()
         cout << cursorPosition(1,1);
         cout.flush();
         if(first) {
-            cout << "^_^";
+            cout << blue << "^" << normal << "_" << blue << "^";
             first = false;
         } else {
-            cout << "-_^";
+            cout << blue << "-" << normal << "_" << blue << "^";
             first = true;
         }
         cout.flush();

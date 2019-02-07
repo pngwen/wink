@@ -1,3 +1,4 @@
+//Draw an animated winky emoticon
 #include "termmanip.h"
 #include <iostream>
 #include <unistd.h>
